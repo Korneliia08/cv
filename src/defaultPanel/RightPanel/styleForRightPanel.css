@@ -1,0 +1,15 @@
+.titleInRightPanel {
+  color: #4d4b31;
+  font-size: 22px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.contentInRightPanel {
+  font-size: 19px;
+  color: #57553d;
+}
+
+/*# sourceMappingURL=styleForRightPanel.css.map */
