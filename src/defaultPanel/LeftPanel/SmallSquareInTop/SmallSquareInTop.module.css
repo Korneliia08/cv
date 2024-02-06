@@ -1,0 +1,10 @@
+.container {
+  background-color: #c6c5c5;
+  width: 65%;
+  height: 160px;
+  border-top-right-radius: 40px;
+  position: relative;
+  z-index: 10;
+}
+
+/*# sourceMappingURL=SmallSquareInTop.module.css.map */

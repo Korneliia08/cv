@@ -1,0 +1,17 @@
+.container {
+  background-color: #a8a8a8;
+  height: 180px;
+  width: 65%;
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  border-top-right-radius: 40px;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+}
+.container img {
+  height: 100%;
+}
+
+/*# sourceMappingURL=SquareForImage.module.css.map */

@@ -1,0 +1,14 @@
+.container {
+  background-color: #676666;
+  height: calc(100vh - 125px);
+  width: 80%;
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  z-index: 15;
+  border-top-right-radius: 70px;
+  padding-top: 120px;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=SectionForData.module.css.map */

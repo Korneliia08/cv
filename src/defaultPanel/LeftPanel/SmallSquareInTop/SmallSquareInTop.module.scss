@@ -1,0 +1,9 @@
+@import "../../stylesInVariable";
+.container {
+  background-color: #c6c5c5;
+  width: $widthComponentInLeftPanel;
+  height: 160px;
+  border-top-right-radius: 40px;
+  position: relative;
+  z-index: 10;
+}

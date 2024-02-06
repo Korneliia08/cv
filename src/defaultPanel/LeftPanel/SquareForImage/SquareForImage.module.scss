@@ -1,0 +1,18 @@
+@import "../../stylesInVariable";
+
+.container {
+  background-color: #a8a8a8;
+  height: 180px;
+  width: $widthComponentInLeftPanel;
+  position: absolute;
+  top: 45px;
+  left: 45px;
+  border-top-right-radius: 40px;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+
+  img {
+    height: 100%;
+  }
+}
