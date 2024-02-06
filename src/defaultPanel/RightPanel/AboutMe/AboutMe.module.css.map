@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["AboutMe.module.scss"],"names":[],"mappings":"AAAA;EACE","file":"AboutMe.module.css"}
+{"version":3,"sourceRoot":"","sources":["AboutMe.module.scss","../../stylesInVariable.scss"],"names":[],"mappings":"AAEA;EACE,OCF2B","file":"AboutMe.module.css"}
