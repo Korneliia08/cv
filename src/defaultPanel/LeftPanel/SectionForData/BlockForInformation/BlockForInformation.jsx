@@ -2,6 +2,7 @@ import style from "./BlockForInformation.module.css";
 import ContactBlock from "./ContactBlock/ContactBlock";
 import LanguageBlock from "./LanguageBlock/LanguageBlock";
 import './stylesForLeftPanel.css';
+import LinksToSocialMedias from "./LinksToSocialMedias/LinksToSocialMedias";
 
 const BlockForInformation = () => {
     return (
@@ -10,6 +11,7 @@ const BlockForInformation = () => {
             <span className={style.titleOfSpacification}>Web developer</span>
             <ContactBlock/>
             <LanguageBlock/>
+            <LinksToSocialMedias/>
         </div>
     )
 }
