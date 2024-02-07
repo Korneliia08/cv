@@ -1,8 +1,4 @@
-@import "../../stylesInVariable";
-
 .container {
-  width: $widthComponentInRightPanel;
-
   .containerForAllIcons {
     margin-top: 15px;
     display: flex;
@@ -53,6 +49,10 @@
 
     .nodeJsIcon {
       color: #318F33;
+    }
+
+    .gulpIcon {
+      color: #D34446;
     }
 
     img {

@@ -3,8 +3,9 @@
   width: 70vw;
   background-color: #d9d8d8;
   display: flex;
-  flex-direction: column;
-  row-gap: 10px;
+}
+.container .mainComponents {
+  width: 65%;
 }
 
 /*# sourceMappingURL=RightPanel.module.css.map */

@@ -5,6 +5,7 @@ import {
     faFigma,
     faGitAlt,
     faGithub,
+    faGulp,
     faHtml5,
     faJs,
     faNodeJs,
@@ -64,6 +65,10 @@ const Skills = () => {
                 <div className={style.blockForIcon}>
                     <FontAwesomeIcon icon={faNodeJs} className={style.nodeJsIcon}/>
                     <span className={style.titleOfSkill}>node.js</span>
+                </div>
+                <div className={style.blockForIcon}>
+                    <FontAwesomeIcon icon={faGulp} className={style.gulpIcon}/>
+                    <span className={style.titleOfSkill}>gulp</span>
                 </div>
             </div>
         </div>

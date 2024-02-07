@@ -4,14 +4,18 @@ import "./styleForRightPanel.css";
 import Education from "./Education/Education";
 import Skills from "./Skills/Skills";
 import Certificates from "./Certificates/Certificates";
+import BlockForOtherComponents from "./BlockForOtherComponents/BlockForOtherComponents";
 
 const RightPanel = () => {
     return (
         <div className={style.container}>
-            <AboutMe/>
-            <Education/>
-            <Skills/>
-            <Certificates/>
+            <div className={style.mainComponents}>
+                <AboutMe/>
+                <Education/>
+                <Skills/>
+                <Certificates/>
+            </div>
+            <BlockForOtherComponents/>
         </div>
     )
 }
