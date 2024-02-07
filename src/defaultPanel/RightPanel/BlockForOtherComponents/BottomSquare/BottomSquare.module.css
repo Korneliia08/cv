@@ -1,0 +1,11 @@
+.container {
+  background-color: #b7b7b7;
+  position: absolute;
+  width: 280px;
+  height: 80px;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 40px;
+}
+
+/*# sourceMappingURL=BottomSquare.module.css.map */
