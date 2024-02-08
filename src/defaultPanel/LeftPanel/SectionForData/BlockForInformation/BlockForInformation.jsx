@@ -3,6 +3,7 @@ import ContactBlock from "./ContactBlock/ContactBlock";
 import LanguageBlock from "./LanguageBlock/LanguageBlock";
 import './stylesForLeftPanel.css';
 import LinksToSocialMedias from "./LinksToSocialMedias/LinksToSocialMedias";
+import BlockOfHobby from "./BlockOfHobby/BlockOfHobby";
 
 const BlockForInformation = () => {
     return (
@@ -12,6 +13,7 @@ const BlockForInformation = () => {
             <ContactBlock/>
             <LanguageBlock/>
             <LinksToSocialMedias/>
+            <BlockOfHobby/>
         </div>
     )
 }

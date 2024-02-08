@@ -1,14 +1,14 @@
 import style from "./EducationCard.module.css";
 
-const EducationCard = () => {
+const EducationCard = (props) => {
+    const data = props.data;
     return (
         <div className={style.container}>
-            <div className={style.blockForAcademicDegreeAndRating}><h3>academic degree</h3>
-                <p>School<span>(Rating)</span></p></div>
-            <span className="dateOfEducation">08.08.2020-08.08.2020</span>
-            <p className="contentInRightPanel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cumque,
-                ex harum inventore ipsum magnam
-                quasi similique soluta! Eligendi excepturi fuga molestias neque odio optio.</p>
+            <div className={style.blockForAcademicDegreeAndRating}>
+                <h3 className={style.titleDegree}>{data.title}</h3>
+                <p className={style.school}>{data.school}<span>({data.rating})</span></p></div>
+            <span className="dateOfEducation">{data.dateOfStart}-{data.dateOfEnd}</span>
+            <p className="contentInRightPanel">{data.description}</p>
         </div>
     )
 }
