@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["SmallSquareInTop.module.scss","../../stylesInVariable.scss"],"names":[],"mappings":"AACA;EACE;EACA,OCH0B;EDI1B;EACA;EACA;EACA","file":"SmallSquareInTop.module.css"}
+{"version":3,"sourceRoot":"","sources":["SmallSquareInTop.module.scss","../../stylesInVariable.scss"],"names":[],"mappings":"AAEA;EACE;EACA,OCJ0B;EDK1B;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEM;EACJ","file":"SmallSquareInTop.module.css"}

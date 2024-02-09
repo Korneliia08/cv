@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["RightPanel.module.scss","../stylesInVariable.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;;AAEA;EACE,OCRyB","file":"RightPanel.module.css"}
+{"version":3,"sourceRoot":"","sources":["RightPanel.module.scss","../stylesInVariable.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;;AAEA;EACE,OCRyB;EDSzB;EACA;EACA;;AAEA;EACE","file":"RightPanel.module.css"}

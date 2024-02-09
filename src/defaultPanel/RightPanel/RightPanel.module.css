@@ -6,6 +6,12 @@
 }
 .container .mainComponents {
   width: 65%;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.container .mainComponents::-webkit-scrollbar {
+  display: none;
 }
 
 /*# sourceMappingURL=RightPanel.module.css.map */

@@ -5,6 +5,14 @@
   border-top-right-radius: 40px;
   position: relative;
   z-index: 10;
+  display: flex;
+  column-gap: 5px;
+  padding: 5px 0 0 5px;
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.container span:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=SmallSquareInTop.module.css.map */

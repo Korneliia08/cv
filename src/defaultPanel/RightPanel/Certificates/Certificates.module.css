@@ -1,3 +1,15 @@
-
+.container .blockForCertifications {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 5px;
+  justify-content: center;
+}
+.container .blockForCertifications > img {
+  width: 100px;
+}
+.container .blockForCertifications > img:hover {
+  cursor: zoom-in;
+}
 
 /*# sourceMappingURL=Certificates.module.css.map */

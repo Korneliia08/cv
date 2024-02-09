@@ -15,7 +15,7 @@ const Education = () => {
         dateOfEnd: "09.12.2023",
         title: "Front-end developer",
         school: "CBS(CyberBionic Systematics) in Ukraine",
-        rating: "800/1000",
+        rating: "860/1000",
         description: "Completion of Specialized Courses in Front End Development at CBS Company in Ukraine",
     }
     return (

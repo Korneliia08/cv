@@ -1,0 +1,17 @@
+.container {
+  .blockForCertifications {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 5px;
+    justify-content: center;
+
+    > img {
+      width: 100px;
+
+      &:hover {
+        cursor: zoom-in;
+      }
+    }
+  }
+}

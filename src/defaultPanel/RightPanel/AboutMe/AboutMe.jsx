@@ -5,7 +5,7 @@ const AboutMe = () => {
         <div className={style.container}>
             <h2 className="titleInRightPanel">About Me</h2>
             <p className="contentInRightPanel">
-                My name is Korneliia Mushak and I am 23 years old. I come from Ukraine, but I completed my first-degree
+                My name is Korneliia Mushak and I am 22 years old. I come from Ukraine, but I completed my first-degree
                 studies in Poland, obtaining the title of engineer. Subsequently, I undertook a course specializing in
                 front-end development in the React framework in Ukraine. During this course, I was recognized as the
                 <a href="https://edu.cbsystematics.com/ua/news/article/best-student-october-2023"> top-performing
