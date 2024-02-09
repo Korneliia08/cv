@@ -24,14 +24,14 @@ const Certificates = () => {
     return (
         <div className={style.container}>
             <h2 className="titleInRightPanel">Certificates</h2>
-            <div className={style.blockForCertifications}><img src={certificationReact} alt="certificationReact"/>
+            <div className={style.blockForCertifications}>
                 <img src={certificationReact} alt="certificationReact" onClick={desplayImage}/>
-                <img src={certificationReactAdvanced} alt="certificationReactAdvanced"/>
-                <img src={certificationHtml5Css3advanced} alt="certificationHtml5Css3advanced"/>
-                <img src={certificationHtml5CssStarter} alt="certificationHtml5CssStarter"/>
-                <img src={certificationJsStarter} alt="certificationJsStarter"/>
-                <img src={certificationJsEssential} alt="certificationJsEssential"/>
-                <img src={certificationGitBasics} alt="certificationGitBasics"/>
+                <img src={certificationReactAdvanced} alt="certificationReactAdvanced" onClick={desplayImage}/>
+                <img src={certificationHtml5Css3advanced} alt="certificationHtml5Css3advanced" onClick={desplayImage}/>
+                <img src={certificationHtml5CssStarter} alt="certificationHtml5CssStarter" onClick={desplayImage}/>
+                <img src={certificationJsStarter} alt="certificationJsStarter" onClick={desplayImage}/>
+                <img src={certificationJsEssential} alt="certificationJsEssential" onClick={desplayImage}/>
+                <img src={certificationGitBasics} alt="certificationGitBasics" onClick={desplayImage}/>
                 {modalIsOpen ?
                     <ModalForImage dataFunction={setModalIsOpen} dataSrc={srcToImage} dataAlt={altText}/> : ""}
             </div>
