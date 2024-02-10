@@ -1,0 +1,124 @@
+.cup {
+  position: absolute;
+  top: 38vmin;
+  left: 40vmin;
+  width: 15vmin;
+  height: 12vmin;
+  background: #e6d7b9;
+  border-radius: 2% 2% 40% 40%;
+  border-bottom: 1vmin ridge #41240d;
+  box-shadow: -0.3vmin 0 0 #41240d, 0.3vmin 0 0 #41240d, 0 -0.2vmin 0 #41240d, inset 0 -0.8vmin 1vmin grey, inset -3vmin 0vmin 1vmin grey;
+}
+
+.cup::before {
+  content: "";
+  position: absolute;
+  top: 12vmin;
+  left: 13vmin;
+  width: 5vmin;
+  height: 2vmin;
+  background: #ad5c1a;
+  border-radius: 45%;
+  border-top: 0.5vmin groove #41240d;
+  box-shadow: 0 1.1vmin 0 #41240d, 0 1.3vmin 0 #ad5c1a;
+  transform: rotate(120deg);
+}
+
+.cup::after {
+  content: "";
+  position: absolute;
+  top: 8vmin;
+  left: 7vmin;
+  width: 5vmin;
+  height: 2vmin;
+  background: #ad5c1a;
+  border-radius: 45%;
+  border-top: 0.5vmin groove #41240d;
+  box-shadow: 0 1.1vmin 0 #41240d, 0 1.3vmin 0 #ad5c1a;
+  transform: rotate(-120deg);
+}
+
+.cuphandle {
+  position: absolute;
+  top: 41vmin;
+  left: 36vmin;
+  width: 2vmin;
+  height: 1vmin;
+  background: transparent;
+  border-radius: 40%;
+  border: 3vmin solid #e6d7b9;
+  box-shadow: -0.5vmin 0 0 #41240d;
+}
+
+.cupplate {
+  position: absolute;
+  top: 50.8vmin;
+  left: 36vmin;
+  width: 25vmin;
+  height: 3vmin;
+  background: transparent;
+  border-radius: 40%;
+  border-bottom: 2vmin ridge #e6d7b9;
+  box-shadow: 0 0.5vmin 0 0 #41240d;
+}
+
+.steam, .steam2, .steam3 {
+  position: absolute;
+  top: 20vmin;
+  left: 46vmin;
+  width: 5vmin;
+  height: 2.5vmin;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: 0 1.5vmin 1.9vmin rgba(156, 154, 154, 0.5);
+  transform: rotate(90deg);
+  animation: 3s steam infinite ease-in-out alternate;
+}
+
+.steam:before, .steam2:before, .steam3:before {
+  content: "";
+  position: absolute;
+  top: 2vmin;
+  left: 10vmin;
+  width: 10vmin;
+  height: 3vmin;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: 0 -2.5vmin 2.3vmin rgba(156, 154, 154, 0.514);
+}
+
+.steam2 {
+  top: 27vmin;
+  left: 48vmin;
+  transform: rotate(-95deg);
+  animation: 2.5s steam2 infinite cubic-bezier(0.44, 1.42, 0.02, -0.43) alternate;
+}
+
+.steam3 {
+  top: 22vmin;
+  left: 51vmin;
+  transform: rotate(95deg);
+  animation: 3.4s steam infinite ease-in-out alternate;
+}
+
+@keyframes steam {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8;
+    transform: rotate(90deg);
+  }
+}
+@keyframes steam2 {
+  from {
+    opacity: 0;
+    transform: rotateZ(-90deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(-96deg);
+  }
+}
+
+/*# sourceMappingURL=AnimationCoffee.module.css.map */
