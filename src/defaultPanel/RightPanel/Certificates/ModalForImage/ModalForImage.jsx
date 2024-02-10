@@ -11,6 +11,7 @@ const ModalForImage = (props) => {
                 dataFunction(false)
             }}>X
             </span>
+                <span>th6rszh5</span>
                 <img src={imgSrc} alt={altText}/>
             </div>
             <div className={style.backgroundWhichBlock}></div>

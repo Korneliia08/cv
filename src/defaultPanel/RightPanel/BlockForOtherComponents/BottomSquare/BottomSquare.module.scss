@@ -6,12 +6,11 @@
   bottom: 0;
   right: 0;
   border-top-left-radius: 40px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
 
   img {
-    height: 80px;
-    top: -55px;
-    right: 0;
-    position: absolute;
-    border-radius: 50px;
+    width: 140px;
   }
 }

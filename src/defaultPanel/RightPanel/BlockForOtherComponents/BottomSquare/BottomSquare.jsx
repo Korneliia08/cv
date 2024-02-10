@@ -1,10 +1,10 @@
 import style from "./BottomSquare.module.css";
+import stopWar from "../../../../assets/images/stopWar.png";
 
 const BottomSquare = () => {
     return (
         <div className={style.container}>
-            <img src="https://animowane-gify.pl/uploads/Kostka cukru wpadająca do kawy.gif"
-                 alt="Kostka cukru wpadająca do kawy"/>
+            <img src={stopWar} alt="stopWar"/>
         </div>
     )
 }

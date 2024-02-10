@@ -8,11 +8,12 @@ const ContactBlock = () => {
             </div>
             <div className="block">
                 <span className="headline">E-mail:</span>
-                <span className="content">korneliiapositive@gmal.com</span>
+                <span className="content">korneliiapositive@gmail.com</span>
             </div>
             <div className="block">
                 <span className="headline">Address:</span>
                 <span className="content"> Mostyska,Ukraine</span>
+                <span className="content"> Jaroslaw,Poland</span>
             </div>
         </div>
     )
